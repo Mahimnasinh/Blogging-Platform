@@ -8,6 +8,7 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
+const PORT = process.env.PORT || 5000
 
 
 // Load environment variables from a .env file
@@ -45,7 +46,6 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 app.post("/server/upload", upload.single("file"), (req, res) => {
-// app.post("/server/upload", upload.single("file"), (req, res) => {
     res.status(200).json("File has been uploaded");
 });
 
@@ -62,6 +62,6 @@ app.use("/server/categories", categoryRoute);
 
 
 // start the server
-app.listen("5000", () => {
-    console.log("Backend is running on port 5000");
+app.listen(PORT, () => {
+    console.log(`Backend is running on port ${PORT}`);
 }); 
