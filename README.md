@@ -6,7 +6,7 @@
     The MERN Blogging Website is a full-featured web application for sharing blog posts. Built using the MERN stack—MongoDB, Express.js, React, and Node.js—this platform offers the user experience. The project aims to provide a user-friendly interface with robust backend support to ensure efficient data handling and security.
     <br />   
     <br />
-    <a href="https://skyhouse.netlify.app/">You can see the Demo Live</a>
+    <a href="https://skyblog.netlify.app/">You can see the Demo Live</a>
   </p>
 </div>
 
