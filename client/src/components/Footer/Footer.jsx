@@ -25,25 +25,26 @@ const Footer = () => {
             </ul>
 
             <div className="footer__social">
-                <a href="https://www.instagram.com/aakash22raj" className="footer__social-link" target='_blank'>
+                <a href="" className="footer__social-link" target='_blank'>
                     <i class=""><AiFillInstagram /></i>
                 </a>
-                <a href="https://www.linkedin.com/in/aakash22raj" className="footer__social-link" target='_blank'>
+                <a href="" className="footer__social-link" target='_blank'>
                     <i class=""><AiFillLinkedin /></i>
                 </a>
-                <a href="https://www.github.com/aakash22raj" className="footer__social-link" target='_blank'>
+                <a href="" className="footer__social-link" target='_blank'>
                     <i class=""><AiFillGithub /></i>
                 </a>
-                <a href="https://www.twitter.com/aakash22raj" className="footer__social-link" target='_blank'>
+                <a href="" className="footer__social-link" target='_blank'>
                     <i class=""><AiFillTwitterCircle /></i>
                 </a>
-                <a href="https://www.youtube.com/" className="footer__social-link" target='_blank'>
+                <a href="" className="footer__social-link" target='_blank'>
                     <i class=""><AiFillYoutube /></i>
                 </a>
             </div>
 
             <span className="footer__copy">
-                &#169; Crypticalcoder. All rights reserved
+                &#169; RDR. All rights reserved
+                
             </span>
         </div>
     </footer>
