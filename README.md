@@ -78,9 +78,5 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- CONTACT -->
-## Contact
 
-Your Name - [@aakash22raj](https://www.instagram.com/aakash22raj/) - aakashrajgic@gamil.com
-
-Project Link - [https://github.com/aakash22raj/MERN-Blogging-Website](https://github.com/aakash22raj/MERN-Blogging-Website)
 
